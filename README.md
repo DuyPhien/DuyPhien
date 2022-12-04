@@ -1,10 +1,63 @@
-- 👋 Hi, I’m @DuyPhien
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send My Love | cre QuangPhuc</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="grid"></div>
 
-<!---
-DuyPhien/DuyPhien is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    <div class="warning"></div>
+
+    <div class="base">
+        <button id="activate">
+            <span></span>
+        </button>
+    </div>
+
+    <div class="box opened" id="cover">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <span></span><span></span>
+    </div>
+
+    <div class="hinges"></div>
+
+    <div class="text">
+        CRE:&thinsp; QUANGPHUC
+    </div>
+
+    <div id="panel2">
+        <div id="msg">TRẢ LỜI SAI</div>
+        <span id="again">lại đi</span>
+    </div>
+
+
+    <div id="panel">
+        <div id="msg">TRẢ LỜI NGAY</div>
+        <div id="time">5</div>
+        <span id="abort"><a href="heart.html">Có</a></span>
+        <span id="no">Không</span>
+        <span id="detonate">Đmm</span>
+    </div>
+
+    <div id="turn-off"></div>
+    <div id="closing"></div>
+
+    <div id="restart"><button id="reload"></button></div>
+
+    <audio id="alarm">
+        <source src="https://josetxu.com/demos/sounds/self-destruct-alarm-count.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
